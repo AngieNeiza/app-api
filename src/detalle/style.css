@@ -1,0 +1,32 @@
+.detalle-container {
+  padding: 24px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.detalle-container h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.detalle-container h2 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 4px;
+}
+
+.detalle-container p {
+  margin: 6px 0;
+  color: var(--text);
+}
+
+.detalle-container a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.detalle-container a:hover {
+  text-decoration: underline;
+}

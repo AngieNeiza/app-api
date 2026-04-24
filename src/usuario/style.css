@@ -1,0 +1,119 @@
+.usuario-container {
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.usuario-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usuario-info {
+  text-align: center;
+}
+
+.usuario-info h1 {
+  margin: 0 0 4px;
+}
+
+.username {
+  color: var(--accent);
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.email {
+  color: var(--text);
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.btn-editar {
+  padding: 8px 20px;
+  border: 2px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.btn-editar:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.usuario-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 360px;
+  text-align: left;
+}
+
+.usuario-form label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.usuario-form input {
+  padding: 8px 12px;
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  font-size: 15px;
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.btn-guardar {
+  padding: 8px 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.usuario-stats {
+  display: flex;
+  gap: 32px;
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+  width: 100%;
+  justify-content: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.stat-num {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--text);
+  text-align: center;
+}

@@ -1,0 +1,111 @@
+.informativa-container {
+  padding: 24px;
+  text-align: left;
+}
+
+.info-hero {
+  text-align: center;
+  padding: 40px 0 32px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+
+.info-hero h1 {
+  font-size: 48px;
+  margin: 0 0 8px;
+  color: var(--accent);
+}
+
+.subtitulo {
+  font-size: 18px;
+  color: var(--text);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 36px;
+}
+
+.info-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  transition: box-shadow 0.2s;
+}
+
+.info-card:hover {
+  box-shadow: var(--shadow);
+}
+
+.info-icon {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-bg);
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.info-card h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: var(--text-h);
+}
+
+.info-card p {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.info-endpoints {
+  margin-bottom: 32px;
+}
+
+.tabla-endpoints {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.tabla-endpoints th,
+.tabla-endpoints td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.tabla-endpoints th {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.tabla-endpoints code {
+  background: var(--code-bg);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.campos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.campo {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.campo span {
+  font-weight: 600;
+  color: var(--accent);
+  margin-right: 8px;
+}

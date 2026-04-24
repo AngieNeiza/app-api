@@ -1,0 +1,53 @@
+.favorito-container {
+  padding: 20px;
+}
+
+.vacio {
+  color: var(--text);
+  font-style: italic;
+  margin: 16px 0;
+}
+
+.tabla-favoritos {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+
+.tabla-favoritos th,
+.tabla-favoritos td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.tabla-favoritos th {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.tabla-favoritos a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.tabla-favoritos a:hover {
+  text-decoration: underline;
+}
+
+.btn-fav {
+  padding: 4px 12px;
+  border: 2px solid var(--accent);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.btn-fav.activo {
+  background: var(--accent);
+  color: #fff;
+}
