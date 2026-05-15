@@ -48,6 +48,10 @@ function Original() {
         ))}
       </div>
 
+      <div>
+        
+      </div>
+
       <div className="posts-grid">
         {posts.map((p) => (
           <div
@@ -69,6 +73,7 @@ function Original() {
             <p>{postSeleccionado.body}</p>
           </div>
         </div>
+        
       )}
     </div>
   )
